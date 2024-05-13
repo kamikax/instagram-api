@@ -1,5 +1,5 @@
 <?php
-namespace SuphiGram\Instagram;
+namespace Kamikax\Instagram;
 
 class InstagramUser extends InstagramRequest{
 	public $email;
