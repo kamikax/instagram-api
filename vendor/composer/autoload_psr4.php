@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'SuphiGram\\Instagram\\' => array($baseDir . '/src'),
+    'Kamikax\\Instagram\\' => array($baseDir . '/src'),
 );
