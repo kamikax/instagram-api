@@ -1,5 +1,5 @@
 <?php
-namespace SuphiGram\Instagram;
+namespace Kamikax\Instagram;
 class InstagramRequest{
 	
 	public $apibase   = 'https://i.instagram.com';
