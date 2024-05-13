@@ -1,11 +1,11 @@
 {
-    "name": "suphiyasin/instagram",
+    "name": "kamikax/instagram",
     "description": "Bloks Instagram API",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SuphiGram\\Instagram\\": "src/"
+            "Kamikax\\Instagram\\": "src/"
         }
     },
     "authors": [
@@ -21,17 +21,17 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/suphiyasin/instagram-api"
+            "url": "https://github.com/kamikax/instagram-api"
         }
     ],
 
     "require": {
-        "suphigram/instagram": "dev-master"
+        "kamikax/instagram": "main"
     },
 
     "autoload-dev": {
         "psr-4": {
-            "SuphiGram\\Instagram\\Tests\\": "tests/"
+            "Kamikax\\Instagram\\Tests\\": "tests/"
         }
     },
 
