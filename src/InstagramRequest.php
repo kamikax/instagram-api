@@ -179,9 +179,8 @@ if ($this->proxyus !== null && $this->proxyus !== null) {
 //------------------------ Cache System --------------------------
 public function MyCache($key, $value = null) {
     //$cacheFile = './Cache/cache.json';
-    $file_path = dirname(__FILE__);
-    $doc_root = str_replace($file_path, 'vendor/kamikax/instagram/src', '');
-    $cacheFile = $doc_root . '/insta_cache.json';
+    $documentRoot = $_SERVER['DOCUMENT_ROOT'];
+    $cacheFile = $documentRoot . '/../insta_cache.json';
 	if (!file_exists($cacheFile)) {
     touch($cacheFile);
     chmod($cacheFile, 0777); // İzinleri uygun bir şekilde ayarlayın
