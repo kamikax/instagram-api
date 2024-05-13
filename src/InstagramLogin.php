@@ -1,6 +1,6 @@
 <?php
 
-namespace SuphiGram\Instagram;
+namespace Kamikax\Instagram;
 class InstagramLogin extends InstagramRequest{
 	
 	public $targetUsername;
