@@ -1,6 +1,6 @@
 <?php
 
-namespace SuphiGram\Instagram;
+namespace Kamikax\Instagram;
 class InstagramFunctions extends InstagramRequest{
 	
 	// --------------------------------- Şifreleme Grubu ----------------------------------------
