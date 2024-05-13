@@ -9,12 +9,12 @@ class ComposerStaticInit4382d852de8a9b955de664652ba6610d
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'SuphiGram\\Instagram\\' => 20,
+            'Kamikax\\Instagram\\' => 20,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'SuphiGram\\Instagram\\' => 
+        'Kamikax\\Instagram\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
