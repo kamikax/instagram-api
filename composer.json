@@ -1,5 +1,5 @@
 {
-    "name": "suphigram/instagram",
+    "name": "kamikax/instagram",
     "description": "Bloks Instagram API",
     "type": "library",
     "license": "MIT",
@@ -21,7 +21,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/suphiyasin/instagram-api"
+            "url": "https://github.com/kamikax/instagram-api"
         }
     ],
 
